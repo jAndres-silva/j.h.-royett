@@ -158,7 +158,7 @@ window.addEventListener("scroll", () => {
 function createWhatsAppButton() {
   const whatsappBtn = document.createElement("a");
   whatsappBtn.href =
-    "https://wa.me/573001234567?text=Hola,%20quiero%20información%20sobre%20asesoría%20de%20tesis";
+    "https://wa.me/573138892376?text=Hola,%20quiero%20información%20sobre%20asesoría%20de%20tesis";
   whatsappBtn.target = "_blank";
   whatsappBtn.className = "whatsapp-float";
   whatsappBtn.innerHTML = '<i class="fab fa-whatsapp"></i>';

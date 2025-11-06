@@ -5564,61 +5564,6 @@ select.form-control-custom option {
 }
 
 /* ==========================================
-   BACK TO TOP BUTTON
-   ========================================== */
-.back-to-top {
-  position: fixed;
-  bottom: 25px; /* Reducido de 30px */
-  right: 25px; /* Reducido de 30px */
-  width: 48px; /* Reducido de 50px */
-  height: 48px; /* Reducido de 50px */
-  background: linear-gradient(
-    135deg,
-    var(--color-accent-3),
-    var(--color-light)
-  );
-  color: var(--color-white);
-  border: none;
-  border-radius: 12px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.1rem; /* Reducido de 1.2rem */
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(20px);
-  transition: all 0.4s ease;
-  z-index: 999;
-  box-shadow: 0 5px 20px rgba(113, 181, 226, 0.4);
-}
-
-.back-to-top.show {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(0);
-}
-
-.back-to-top:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(113, 181, 226, 0.5);
-}
-
-.back-to-top i {
-  animation: arrowBounce 2s infinite;
-}
-
-@keyframes arrowBounce {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-5px);
-  }
-}
-
-/* ==========================================
    RESPONSIVE - FOOTER
    ========================================== */
 @media (max-width: 991px) {
