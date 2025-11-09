@@ -96,7 +96,6 @@
       sizes="180x180"
       href="./imagenes/apple-touch-icon.png"
     />
-    <link rel="manifest" href="/site.webmanifest" />
 
     <!-- ============================================
          PRECONNECT & PRELOAD (PERFORMANCE)
@@ -155,7 +154,6 @@
     <script
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
-      defer
     ></script>
 
     <!-- SweetAlert2 JS -->
@@ -490,7 +488,7 @@
               "ratingValue": "5",
               "bestRating": "5"
             },
-            "reviewBody": "¡Javier mi tesis fue todo un éxito! Gracias por tu profesionalismo y compromiso, mi experiencia 10 de 10.",
+            "reviewBody": "¡Mi tesis fue todo un éxito! Gracias por tu profesionalismo y compromiso. Mi experiencia 10 de 10.",
             "datePublished": "2024-11-15"
           },
           {
@@ -504,7 +502,7 @@
               "ratingValue": "5",
               "bestRating": "5"
             },
-            "reviewBody": "Muchas gracias Javier por ayudarme con mi proyecto, gracias a tu acompañamiento permanente logré terminar con mi tesis a tiempo, todo súper claro. Recomendadísimo!",
+            "reviewBody": "Me sentía perdida hasta que me ayudaste con tu metodología. Logré terminar mi tesis a tiempo, todo súper claro. ¡Recomendadísimo!",
             "datePublished": "2024-10-20"
           },
           {
@@ -518,7 +516,7 @@
               "ratingValue": "5",
               "bestRating": "5"
             },
-            "reviewBody": "Después de meses estancado con mi tesis doctoral, el acompañamiento que recibí fue transformador. La claridad metodológica me permitió finalizar mi doctorado con honores. Totalmente recomendado.",
+            "reviewBody": "Después de meses estancado, el acompañamiento fue transformador. Finalicé mi doctorado con honores. Totalmente recomendado.",
             "datePublished": "2024-09-10"
           },
           {
@@ -532,7 +530,7 @@
               "ratingValue": "5",
               "bestRating": "5"
             },
-            "reviewBody": "El artículo científico gracias a Dios todo salió muy bien, muchas gracias por su apoyo y dedicación. Otro caso de éxito. Dios le multiplique.",
+            "reviewBody": "El artículo científico salió excelente. Muchas gracias por su apoyo y dedicación. Me da mucha satisfacción compartir este logro.",
             "datePublished": "2024-08-05"
           },
           {
@@ -546,7 +544,7 @@
               "ratingValue": "5",
               "bestRating": "5"
             },
-            "reviewBody": "Gracias profesor por su ayuda, no tiene ni idea de lo valioso. El trabajo fue recibido exitosamente. No dudes recomendarme.",
+            "reviewBody": "Gracias por su ayuda, no tiene idea de lo valioso que fue para mí. Ya recibieron mi trabajo y lo van a validar. ¡Totalmente recomendable!",
             "datePublished": "2024-07-18"
           },
           {
@@ -560,7 +558,7 @@
               "ratingValue": "5",
               "bestRating": "5"
             },
-            "reviewBody": "La sustentación fue excelentísima muchas gracias por todo. Obtuve 96.5 de nota. Valoro tu ayuda para mi entrega!",
+            "reviewBody": "¡Fue excelentísimo! Obtuve 96.5 de nota. Valoro muchísimo tu ayuda para mi entrega. Muchas gracias por todo.",
             "datePublished": "2024-06-25"
           }
         ]
@@ -606,44 +604,6 @@
   </head>
 
   <body class="aos-loading">
-    <!-- Top Bar -->
-    <div class="top-bar" data-aos="fade-down" data-aos-duration="800">
-      <div class="container">
-        <div class="top-bar-content">
-          <div class="top-bar-left">
-            <span class="top-bar-item">
-              <i class="fas fa-map-marker-alt"></i>
-              Montería y Cartagena, Colombia
-            </span>
-            <span class="top-bar-item">
-              <i class="fas fa-envelope"></i>
-              jhroyettresearch@gmail.com
-            </span>
-          </div>
-          <div class="top-bar-right">
-            <span class="top-bar-item">
-              <i class="fas fa-clock"></i>
-              Horario 24/7
-            </span>
-            <div class="social-links">
-              <a href="#" target="_blank" title="Facebook">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-              <a href="#" target="_blank" title="Twitter">
-                <i class="fab fa-twitter"></i>
-              </a>
-              <a href="#" target="_blank" title="LinkedIn">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-              <a href="#" target="_blank" title="Instagram">
-                <i class="fab fa-instagram"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <!-- Navigation -->
     <nav
       class="navbar navbar-expand-lg navbar-custom"
@@ -660,6 +620,12 @@
           />
         </a>
 
+        <!-- Botón CTA directo (visible en desktop) -->
+        <a href="#agendar" class="btn-request btn-request-desktop">
+          <i class="fas fa-calendar-check"></i> Agendar Consulta Gratuita
+        </a>
+
+        <!-- Botón toggler para móvil -->
         <button
           class="navbar-toggler"
           type="button"
@@ -672,29 +638,11 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
+        <!-- Collapse para móvil -->
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#home">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">Sobre Mí</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#services">Servicios</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#methodology">Metodología</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#testimonials">Testimonios</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contacto</a>
-            </li>
-          </ul>
-
-          <a href="#agendar" class="btn-request">Agendar Asesoría</a>
+          <a href="#agendar" class="btn-request btn-request-mobile">
+            <i class="fas fa-calendar-check"></i> Agendar Consulta Gratuita
+          </a>
         </div>
       </div>
     </nav>
@@ -711,8 +659,8 @@
               data-aos-duration="600"
               data-aos-delay="100"
             >
-              <i class="fas fa-handshake"></i>
-              TU INVESTIGACIÓN EN MANOS EXPERTAS
+              <i class="fas fa-check-circle"></i>
+              800+ ESTUDIANTES YA SE GRADUARON
             </div>
 
             <h1
@@ -721,8 +669,9 @@
               data-aos-duration="800"
               data-aos-delay="200"
             >
-              Termina tu Tesis de <span class="highlight">Maestría</span> o
-              <span class="highlight">Doctorado</span> sin Estrés
+              Gradúate de tu
+              <span class="highlight">Maestría o Doctorado</span> en Tiempo
+              Récord sin Ansiedad ni Errores Costosos
             </h1>
 
             <p
@@ -731,9 +680,9 @@
               data-aos-duration="800"
               data-aos-delay="300"
             >
-              Metodología probada con 800+ casos de éxito. Te acompaño en cada
-              etapa de tu investigación para que logres tu título sin
-              dificultades ni ansiedad.
+              Te guío paso a paso desde el diseño metodológico hasta tu defensa
+              exitosa. Elimina la incertidumbre, evita meses de retrabajo y
+              logra tu título con mi metodología probada en 800+ casos de éxito.
             </p>
 
             <div
@@ -743,10 +692,8 @@
               data-aos-delay="400"
             >
               <a href="#agendar" class="btn-primary">
-                <i class="fas fa-calendar-check"></i> Agendar Asesoría Gratuita
-              </a>
-              <a href="#services" class="btn-secondary">
-                <i class="fas fa-play-circle"></i> Ver Servicios
+                <i class="fas fa-calendar-check"></i> Agenda tu Consulta
+                Gratuita Ahora
               </a>
             </div>
 
@@ -785,7 +732,7 @@
               </div>
             </div>
 
-            <!-- Redes Sociales -->
+            <!-- Redes Sociales (Solo 3 principales) -->
             <div
               class="hero-social-section"
               data-aos="fade-up"
@@ -804,26 +751,7 @@
                 >
                   <i class="fab fa-instagram"></i>
                 </a>
-                <a
-                  href="https://www.linkedin.com/in/javier-hernandez-royett-jhroyettresearch-06a11137/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="hero-social-icon"
-                  aria-label="Síguenos en LinkedIn"
-                  title="LinkedIn - JH Royett Asesor de Tesis"
-                >
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-                <a
-                  href="https://x.com/Jaherroy?t=npZCSYFD-GNL7zQwZzB2Eg&s=09"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="hero-social-icon"
-                  aria-label="Síguenos en Twitter"
-                  title="Twitter - JH Royett Asesor de Tesis"
-                >
-                  <i class="fab fa-twitter"></i>
-                </a>
+
                 <a
                   href="https://www.facebook.com/jhroyettresearch?mibextid=qi2Omg&rdid=lADQbYwHkeYx6Hfg&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FW9bpStMMsuU2Rjve%2F%3Fmibextid%3Dqi2Omg#"
                   target="_blank"
@@ -834,6 +762,7 @@
                 >
                   <i class="fab fa-facebook-f"></i>
                 </a>
+
                 <a
                   href="https://www.tiktok.com/@jhroyettresearch?_t=8p7lZKJNwn8&_r=1"
                   target="_blank"
@@ -843,26 +772,6 @@
                   title="TikTok - JH Royett Asesor de Tesis"
                 >
                   <i class="fab fa-tiktok"></i>
-                </a>
-                <a
-                  href="https://scholar.google.es/citations?user=4kEyeqQAAAAJ&hl=es"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="hero-social-icon"
-                  aria-label="Síguenos en Google Plus"
-                  title="Google Plus - JH Royett Asesor de Tesis"
-                >
-                  <i class="fab fa-google-plus-g"></i>
-                </a>
-                <a
-                  href="https://open.spotify.com/user/313mgxnmwqubbs6e73es75gmgoxm?si=ocKeQ9WWTtmjQVCNTs7DMA&nd=1&dlsi=24f2f9f573984552"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="hero-social-icon"
-                  aria-label="Escúchanos en Spotify"
-                  title="Spotify - JH Royett Asesor de Tesis"
-                >
-                  <i class="fab fa-spotify"></i>
                 </a>
               </div>
             </div>
@@ -973,7 +882,8 @@
               data-aos-duration="800"
               data-aos-delay="100"
             >
-              Te Acompaño Hasta Tu <span class="highlight">Graduación</span>
+              Logra tu Título
+              <span class="highlight">sin Sacrificar tu Salud Mental</span>
             </h2>
 
             <p
@@ -1059,8 +969,8 @@
               data-aos-duration="800"
               data-aos-delay="700"
             >
-              <a href="#services" class="btn-about">
-                Conocer Servicios
+              <a href="#agendar" class="btn-about">
+                Agenda tu Asesoría Gratuita
                 <i class="fas fa-arrow-right"></i>
               </a>
             </div>
@@ -1134,7 +1044,8 @@
                     <div class="problem-footer-v2">
                       <i class="fas fa-arrow-right"></i>
                       <span
-                        >Plan claro y organizado que elimina la ansiedad</span
+                        >Metodología de 5 pasos que elimina la ansiedad desde el
+                        día 1</span
                       >
                     </div>
                   </div>
@@ -1325,8 +1236,8 @@
               data-aos="fade-right"
               data-aos-duration="800"
             >
-              Beneficios de Realizar tu Asesoría con
-              <span class="highlight">J.H.Royett Research</span>
+              Lo Que Lograrás
+              <span class="highlight">con Mi Acompañamiento</span>
             </h2>
             <p
               class="benefits-main-description"
@@ -1385,8 +1296,8 @@
             <div class="benefit-content-v2">
               <h3 class="benefit-title-v2">Ahorro de tiempo</h3>
               <p class="benefit-desc-v2">
-                Evitarás pérdida de tiempo con orientación precisa y recursos
-                adecuados.
+                Reduce tu tiempo de investigación en 6 meses con nuestra
+                metodología estructurada
               </p>
             </div>
           </div>
@@ -1471,7 +1382,7 @@
     </section>
 
     <!-- ==========================================
- SERVICES SECTION - DISEÑO MODERNO
+ SERVICES SECTION - 3 SERVICIOS OPTIMIZADO
  ========================================== -->
     <section class="services-section" id="services">
       <div class="container">
@@ -1502,14 +1413,14 @@
             Ofrezco asesoría especializada adaptada a cada nivel académico.
             Desde tu maestría hasta publicaciones científicas, te acompaño en
             cada paso. Servicio disponible en Montería, Cartagena y modalidad
-            virtual en LATAN.
+            virtual en LATAM.
           </p>
         </div>
 
-        <!-- Services Grid -->
-        <div class="row services-grid">
+        <!-- Services Grid - CENTRADO -->
+        <div class="row services-grid justify-content-center">
           <!-- Service 1: Tesis Doctoral -->
-          <div class="col-lg-3 col-md-6 mb-4">
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
             <div
               class="service-card"
               data-aos="flip-up"
@@ -1548,7 +1459,7 @@
           </div>
 
           <!-- Service 2: Tesis de Maestría -->
-          <div class="col-lg-3 col-md-6 mb-4">
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
             <div
               class="service-card"
               data-aos="flip-up"
@@ -1586,52 +1497,13 @@
             </div>
           </div>
 
-          <!-- Service 3: Especialización -->
-          <div class="col-lg-3 col-md-6 mb-4">
+          <!-- Service 3: Artículo Científico -->
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
             <div
               class="service-card"
               data-aos="flip-up"
               data-aos-duration="800"
               data-aos-delay="500"
-            >
-              <div class="service-top-border"></div>
-
-              <div class="service-header">
-                <div class="service-icon">
-                  <i class="fas fa-certificate"></i>
-                </div>
-                <h3 class="service-title">Especialización</h3>
-              </div>
-
-              <p class="service-description">
-                Guía completa para tu trabajo de grado de especialización. Te
-                ayudo a estructurar, redactar y presentar un proyecto académico
-                de calidad.
-              </p>
-
-              <div class="service-image">
-                <img
-                  src="./imagenes/2147657347.webp"
-                  alt="Trabajo de Grado Especialización Montería Cartagena"
-                  loading="lazy"
-                />
-                <div class="service-overlay"></div>
-              </div>
-
-              <a href="#agendar" class="service-link">
-                Cotizar
-                <i class="fas fa-arrow-right"></i>
-              </a>
-            </div>
-          </div>
-
-          <!-- Service 4: Artículo Científico -->
-          <div class="col-lg-3 col-md-6 mb-4">
-            <div
-              class="service-card"
-              data-aos="flip-up"
-              data-aos-duration="800"
-              data-aos-delay="600"
             >
               <div class="service-top-border"></div>
 
@@ -1676,168 +1548,6 @@
             <i class="fas fa-check-circle"></i>
             <strong>Acompañamiento permanente y calidad garantizada</strong> en
             todos nuestros servicios
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- ==========================================
- RECURSOS SECTION - CARDS CON MODALES
- ========================================== -->
-    <section class="recursos-section" id="recursos">
-      <div class="container">
-        <!-- Header -->
-        <div class="section-header text-center">
-          <div
-            class="section-label"
-            data-aos="fade-down"
-            data-aos-duration="600"
-          >
-            RECURSOS ACADÉMICOS
-          </div>
-          <h2
-            class="section-title"
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="100"
-          >
-            Guías y Recursos para tu
-            <span class="highlight">Éxito Académico</span>
-          </h2>
-          <p
-            class="section-description"
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="200"
-          >
-            Accede a nuestra biblioteca de recursos especializados: artículos
-            sobre psicología de la tesis, guías para evitar errores comunes,
-            tutoriales para publicación científica y plantillas descargables.
-          </p>
-        </div>
-
-        <!-- Resources Grid -->
-        <div class="row recursos-grid">
-          <!-- Card 1: Psicología de la Tesis -->
-          <div class="col-lg-3 col-md-6 mb-4">
-            <div
-              class="recurso-card"
-              data-aos="flip-up"
-              data-aos-duration="800"
-              data-aos-delay="300"
-            >
-              <div class="recurso-icon">
-                <i class="fas fa-brain"></i>
-              </div>
-              <h3 class="recurso-title">Psicología de la Tesis</h3>
-              <p class="recurso-description">
-                Estrategias probadas para vencer la procrastinación, el burnout
-                y el estrés durante tu proceso de investigación.
-              </p>
-              <button
-                class="recurso-btn"
-                data-modal="psicologiaModal"
-                aria-label="Ver recursos de Psicología de la Tesis"
-              >
-                Ver Recursos
-                <i class="fas fa-arrow-right"></i>
-              </button>
-            </div>
-          </div>
-
-          <!-- Card 2: Errores Frecuentes -->
-          <div class="col-lg-3 col-md-6 mb-4">
-            <div
-              class="recurso-card"
-              data-aos="flip-up"
-              data-aos-duration="800"
-              data-aos-delay="400"
-            >
-              <div class="recurso-icon errores-icon">
-                <i class="fas fa-exclamation-triangle"></i>
-              </div>
-              <h3 class="recurso-title">Errores Frecuentes</h3>
-              <p class="recurso-description">
-                Identifica y evita los errores más comunes en la construcción
-                teórica y metodológica de tu tesis.
-              </p>
-              <button
-                class="recurso-btn"
-                data-modal="erroresModal"
-                aria-label="Ver errores frecuentes en tesis"
-              >
-                Ver Recursos
-                <i class="fas fa-arrow-right"></i>
-              </button>
-            </div>
-          </div>
-
-          <!-- Card 3: Artículo Científico -->
-          <div class="col-lg-3 col-md-6 mb-4">
-            <div
-              class="recurso-card"
-              data-aos="flip-up"
-              data-aos-duration="800"
-              data-aos-delay="500"
-            >
-              <div class="recurso-icon articulo-icon">
-                <i class="fas fa-file-alt"></i>
-              </div>
-              <h3 class="recurso-title">Artículo Científico</h3>
-              <p class="recurso-description">
-                Guía paso a paso para escribir y publicar tu artículo científico
-                en revistas indexadas de alto impacto.
-              </p>
-              <button
-                class="recurso-btn"
-                data-modal="articuloModal"
-                aria-label="Ver guía de artículos científicos"
-              >
-                Ver Recursos
-                <i class="fas fa-arrow-right"></i>
-              </button>
-            </div>
-          </div>
-
-          <!-- Card 4: Plantillas y Formatos -->
-          <div class="col-lg-3 col-md-6 mb-4">
-            <div
-              class="recurso-card"
-              data-aos="flip-up"
-              data-aos-duration="800"
-              data-aos-delay="600"
-            >
-              <div class="recurso-icon plantillas-icon">
-                <i class="fas fa-download"></i>
-              </div>
-              <h3 class="recurso-title">Plantillas y Formatos</h3>
-              <p class="recurso-description">
-                Descarga plantillas profesionales y formatos editables para
-                facilitar la escritura de tu trabajo académico.
-              </p>
-              <button
-                class="recurso-btn"
-                data-modal="plantillasModal"
-                aria-label="Descargar plantillas y formatos"
-              >
-                Ver Recursos
-                <i class="fas fa-arrow-right"></i>
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Bottom Text -->
-        <div
-          class="recursos-bottom text-center"
-          data-aos="fade-up"
-          data-aos-duration="800"
-          data-aos-delay="700"
-        >
-          <p class="bottom-text-recursos">
-            <i class="fas fa-lightbulb"></i>
-            <strong>Recursos gratuitos actualizados constantemente</strong> para
-            apoyar tu proceso académico
           </p>
         </div>
       </div>
@@ -2269,7 +1979,7 @@
     </div>
 
     <!-- ==========================================
- CONTACT FORM SECTION - DISEÑO MODERNO
+ CONTACT FORM SECTION - OPTIMIZADO
  ========================================== -->
     <section class="contact-form-section" id="agendar">
       <div class="container">
@@ -2286,13 +1996,12 @@
                 <div class="form-label">AGENDA TU ASESORÍA</div>
                 <h2 class="form-title">
                   Solicita una
-                  <span class="highlight">Asesoría Gratuita</span> para tu Tesis
+                  <span class="highlight">Consulta Gratuita</span> para tu Tesis
                 </h2>
                 <p class="form-description">
                   Asesoría presencial en Montería y Cartagena, con cobertura
                   virtual en las principales ciudades de Colombia. Completa el
-                  formulario y recibe respuesta en menos de 24 horas con una
-                  propuesta personalizada para tu tesis.
+                  formulario y recibe respuesta en menos de 24 horas.
                 </p>
               </div>
 
@@ -2311,7 +2020,7 @@
                       class="form-control-custom"
                       id="nombre"
                       name="nombre"
-                      placeholder="Tu Nombre Completo"
+                      placeholder="Nombre Completo"
                       required
                     />
                   </div>
@@ -2322,7 +2031,7 @@
                       class="form-control-custom"
                       id="telefono"
                       name="telefono"
-                      placeholder="Tu Teléfono"
+                      placeholder="WhatsApp"
                       required
                     />
                   </div>
@@ -2340,7 +2049,7 @@
                     class="form-control-custom"
                     id="email"
                     name="email"
-                    placeholder="Tu Correo Electrónico"
+                    placeholder="Correo Electrónico"
                     required
                   />
                 </div>
@@ -2359,7 +2068,7 @@
                     required
                   >
                     <option value="" disabled selected>
-                      ¿En qué podemos ayudarte?
+                      Selecciona tu necesidad principal
                     </option>
                     <option value="maestria">Tesis de Maestría</option>
                     <option value="doctorado">Tesis Doctoral</option>
@@ -2369,43 +2078,12 @@
                   </select>
                 </div>
 
-                <!-- Fila 2: Carrera y Páginas -->
-                <div
-                  class="form-row-custom"
-                  data-aos="fade-up"
-                  data-aos-duration="600"
-                  data-aos-delay="325"
-                >
-                  <div class="form-group-custom">
-                    <input
-                      type="text"
-                      class="form-control-custom"
-                      id="carrera"
-                      name="carrera"
-                      placeholder="¿Qué carrera estudias?"
-                      required
-                    />
-                  </div>
-
-                  <div class="form-group-custom">
-                    <input
-                      type="number"
-                      class="form-control-custom"
-                      id="paginas"
-                      name="paginas"
-                      placeholder="¿Cuántas páginas?"
-                      min="1"
-                      required
-                    />
-                  </div>
-                </div>
-
                 <!-- Nivel de Desarrollo -->
                 <div
                   class="form-group-custom"
                   data-aos="fade-up"
                   data-aos-duration="600"
-                  data-aos-delay="350"
+                  data-aos-delay="400"
                 >
                   <select
                     class="form-control-custom"
@@ -2431,23 +2109,6 @@
                   </select>
                 </div>
 
-                <!-- Mensaje -->
-                <div
-                  class="form-group-custom"
-                  data-aos="fade-up"
-                  data-aos-duration="600"
-                  data-aos-delay="400"
-                >
-                  <textarea
-                    class="form-control-custom textarea-custom"
-                    id="mensaje"
-                    name="mensaje"
-                    rows="5"
-                    placeholder="Cuéntanos sobre tu proyecto de investigación..."
-                    required
-                  ></textarea>
-                </div>
-
                 <!-- Botón de Envío -->
                 <button
                   type="submit"
@@ -2456,8 +2117,8 @@
                   data-aos-duration="600"
                   data-aos-delay="500"
                 >
-                  <i class="fas fa-paper-plane"></i>
-                  Enviar Solicitud
+                  <i class="fas fa-calendar-check"></i>
+                  Agendar Mi Consulta Gratuita
                 </button>
               </form>
 
@@ -2474,7 +2135,7 @@
                 </div>
                 <div class="info-item">
                   <i class="fas fa-shield-alt"></i>
-                  <span>Tus datos están 100% protegidos</span>
+                  <span>Sin compromiso. 100% confidencial</span>
                 </div>
               </div>
             </div>
@@ -2542,8 +2203,7 @@
           </div>
 
           <a
-            href="href"
-            ="https://wa.me/573138892376"
+            href="https://wa.me/573138892376"
             target="_blank"
             class="btn-whatsapp"
             rel="noopener noreferrer"
@@ -2556,7 +2216,7 @@
     </div>
 
     <!-- ==========================================
- TESTIMONIALS SECTION - CIRCULAR IMAGE DESIGN
+ TESTIMONIALS SECTION - OPTIMIZADO
  ========================================== -->
     <section class="testimonials-section" id="testimonials">
       <div class="container">
@@ -2616,7 +2276,7 @@
         >
           <div class="swiper testimonials-swiper">
             <div class="swiper-wrapper">
-              <!-- Testimonial Slide 1 -->
+              <!-- Testimonial Slide 1 - YA ESTABA BIEN -->
               <div class="swiper-slide">
                 <div
                   class="testimonial-card"
@@ -2624,9 +2284,7 @@
                   itemtype="https://schema.org/Review"
                 >
                   <div class="testimonial-content">
-                    <!-- Información y testimonio -->
                     <div class="testimonial-info">
-                      <!-- Item reviewed -->
                       <div
                         itemprop="itemReviewed"
                         itemscope
@@ -2638,7 +2296,6 @@
                         />
                       </div>
 
-                      <!-- Imagen circular del cliente -->
                       <div class="testimonial-image-circular">
                         <img
                           src="./imagenes/test-1.webp"
@@ -2659,11 +2316,10 @@
                       <p class="testimonial-role">Maestría en Educación</p>
 
                       <p class="testimonial-text" itemprop="reviewBody">
-                        ¡Javier mi tesis fue todo un éxito! 👨‍🎓 Gracias por tu
-                        profesionalismo y compromiso, mi experiencia 10 de 10.
+                        ¡Mi tesis fue todo un éxito! Gracias por tu
+                        profesionalismo y compromiso. Mi experiencia 10 de 10.
                       </p>
 
-                      <!-- Footer con empresa y estrellas -->
                       <div class="testimonial-footer">
                         <div class="testimonial-company">
                           <i class="fas fa-university"></i>
@@ -2691,7 +2347,7 @@
                 </div>
               </div>
 
-              <!-- Testimonial Slide 2 -->
+              <!-- Testimonial Slide 2 - ACORTADO -->
               <div class="swiper-slide">
                 <div
                   class="testimonial-card"
@@ -2731,11 +2387,9 @@
                       <p class="testimonial-role">Licenciatura en Psicología</p>
 
                       <p class="testimonial-text" itemprop="reviewBody">
-                        Muchas gracias Javier por ayudarme con mi proyecto,
-                        gracias a tu acompañamiento permanente logré terminar
-                        con mi tesis a tiempo, todo súper claro, la verdad me
-                        sentía como perdida hasta que me ayudaste con tu
-                        metodología. Dios te bendiga! Recomendadísimo Javi!
+                        Me sentía perdida hasta que me ayudaste con tu
+                        metodología. Logré terminar mi tesis a tiempo, todo
+                        súper claro. ¡Recomendadísimo!
                       </p>
 
                       <div class="testimonial-footer">
@@ -2765,7 +2419,7 @@
                 </div>
               </div>
 
-              <!-- Testimonial Slide 3 -->
+              <!-- Testimonial Slide 3 - YA ESTABA BIEN -->
               <div class="swiper-slide">
                 <div
                   class="testimonial-card"
@@ -2807,10 +2461,8 @@
                       </p>
 
                       <p class="testimonial-text" itemprop="reviewBody">
-                        Después de meses estancado con mi tesis doctoral, el
-                        acompañamiento que recibí fue transformador. La claridad
-                        metodológica y el apoyo en la redacción académica me
-                        permitieron finalizar mi doctorado con honores.
+                        Después de meses estancado, el acompañamiento fue
+                        transformador. Finalicé mi doctorado con honores.
                         Totalmente recomendado.
                       </p>
 
@@ -2841,7 +2493,7 @@
                 </div>
               </div>
 
-              <!-- Testimonial Slide 4 -->
+              <!-- Testimonial Slide 4 - ACORTADO Y MEJORADO -->
               <div class="swiper-slide">
                 <div
                   class="testimonial-card"
@@ -2881,11 +2533,9 @@
                       <p class="testimonial-role">Artículo Científico</p>
 
                       <p class="testimonial-text" itemprop="reviewBody">
-                        Señor Javier buena tarde, el artículo científico gracias
-                        a Dios todo salió muy bien, asistieron con éxito muchas
-                        gracias por su apoyo y dedicación agradezco otro caso de
-                        éxito. Dios le multiplique muchas gracias. Buenas
-                        tardes, me da mucho satisfacción compartir sus logros.
+                        El artículo científico salió excelente. Muchas gracias
+                        por su apoyo y dedicación. Me da mucha satisfacción
+                        compartir este logro.
                       </p>
 
                       <div class="testimonial-footer">
@@ -2915,7 +2565,7 @@
                 </div>
               </div>
 
-              <!-- Testimonial Slide 5 -->
+              <!-- Testimonial Slide 5 - ACORTADO Y MEJORADO -->
               <div class="swiper-slide">
                 <div
                   class="testimonial-card"
@@ -2955,12 +2605,9 @@
                       <p class="testimonial-role">Trabajo de Grado</p>
 
                       <p class="testimonial-text" itemprop="reviewBody">
-                        Buenos días, Gracias profesor por confiar en graduando.
-                        Ya me notificaron el recibido y van a proceder con la
-                        validación por partes. Dios permita que no sea mayor
-                        cosa la que corrijan. Quedamos atentos, gracias por su
-                        ayuda, no tiene ni idea de lo valioso. No dudes
-                        recomendarme.
+                        Gracias por su ayuda, no tiene idea de lo valioso que
+                        fue para mí. Ya recibieron mi trabajo y lo van a
+                        validar. ¡Totalmente recomendable!
                       </p>
 
                       <div class="testimonial-footer">
@@ -2990,7 +2637,7 @@
                 </div>
               </div>
 
-              <!-- Testimonial Slide 6 -->
+              <!-- Testimonial Slide 6 - MEJORADO CON RESULTADO -->
               <div class="swiper-slide">
                 <div
                   class="testimonial-card"
@@ -3030,9 +2677,9 @@
                       <p class="testimonial-role">Sustentación de Tesis</p>
 
                       <p class="testimonial-text" itemprop="reviewBody">
-                        Hola, sin fue excelentísima muchas gracias por todo. Que
-                        bueno me alegra. Que nota obtuviste? 96.5. Quiero me
-                        alegra. Valoro tu ayuda para mi entrega!
+                        ¡Fue excelentísimo! Obtuve 96.5 de nota. Valoro
+                        muchísimo tu ayuda para mi entrega. Muchas gracias por
+                        todo.
                       </p>
 
                       <div class="testimonial-footer">
@@ -3079,6 +2726,168 @@
               clientes satisfechos</span
             >
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+ RECURSOS SECTION - CARDS CON MODALES
+ ========================================== -->
+    <section class="recursos-section" id="recursos">
+      <div class="container">
+        <!-- Header -->
+        <div class="section-header text-center">
+          <div
+            class="section-label"
+            data-aos="fade-down"
+            data-aos-duration="600"
+          >
+            RECURSOS ACADÉMICOS
+          </div>
+          <h2
+            class="section-title"
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-delay="100"
+          >
+            Guías y Recursos para tu
+            <span class="highlight">Éxito Académico</span>
+          </h2>
+          <p
+            class="section-description"
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-delay="200"
+          >
+            Accede a nuestra biblioteca de recursos especializados: artículos
+            sobre psicología de la tesis, guías para evitar errores comunes,
+            tutoriales para publicación científica y plantillas descargables.
+          </p>
+        </div>
+
+        <!-- Resources Grid -->
+        <div class="row recursos-grid">
+          <!-- Card 1: Psicología de la Tesis -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div
+              class="recurso-card"
+              data-aos="flip-up"
+              data-aos-duration="800"
+              data-aos-delay="300"
+            >
+              <div class="recurso-icon">
+                <i class="fas fa-brain"></i>
+              </div>
+              <h3 class="recurso-title">Psicología de la Tesis</h3>
+              <p class="recurso-description">
+                Estrategias probadas para vencer la procrastinación, el burnout
+                y el estrés durante tu proceso de investigación.
+              </p>
+              <button
+                class="recurso-btn"
+                data-modal="psicologiaModal"
+                aria-label="Ver recursos de Psicología de la Tesis"
+              >
+                Ver Recursos
+                <i class="fas fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Card 2: Errores Frecuentes -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div
+              class="recurso-card"
+              data-aos="flip-up"
+              data-aos-duration="800"
+              data-aos-delay="400"
+            >
+              <div class="recurso-icon errores-icon">
+                <i class="fas fa-exclamation-triangle"></i>
+              </div>
+              <h3 class="recurso-title">Errores Frecuentes</h3>
+              <p class="recurso-description">
+                Identifica y evita los errores más comunes en la construcción
+                teórica y metodológica de tu tesis.
+              </p>
+              <button
+                class="recurso-btn"
+                data-modal="erroresModal"
+                aria-label="Ver errores frecuentes en tesis"
+              >
+                Ver Recursos
+                <i class="fas fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Card 3: Artículo Científico -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div
+              class="recurso-card"
+              data-aos="flip-up"
+              data-aos-duration="800"
+              data-aos-delay="500"
+            >
+              <div class="recurso-icon articulo-icon">
+                <i class="fas fa-file-alt"></i>
+              </div>
+              <h3 class="recurso-title">Artículo Científico</h3>
+              <p class="recurso-description">
+                Guía paso a paso para escribir y publicar tu artículo científico
+                en revistas indexadas de alto impacto.
+              </p>
+              <button
+                class="recurso-btn"
+                data-modal="articuloModal"
+                aria-label="Ver guía de artículos científicos"
+              >
+                Ver Recursos
+                <i class="fas fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Card 4: Plantillas y Formatos -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div
+              class="recurso-card"
+              data-aos="flip-up"
+              data-aos-duration="800"
+              data-aos-delay="600"
+            >
+              <div class="recurso-icon plantillas-icon">
+                <i class="fas fa-download"></i>
+              </div>
+              <h3 class="recurso-title">Plantillas y Formatos</h3>
+              <p class="recurso-description">
+                Descarga plantillas profesionales y formatos editables para
+                facilitar la escritura de tu trabajo académico.
+              </p>
+              <button
+                class="recurso-btn"
+                data-modal="plantillasModal"
+                aria-label="Descargar plantillas y formatos"
+              >
+                Ver Recursos
+                <i class="fas fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom Text -->
+        <div
+          class="recursos-bottom text-center"
+          data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-delay="700"
+        >
+          <p class="bottom-text-recursos">
+            <i class="fas fa-lightbulb"></i>
+            <strong>Recursos gratuitos actualizados constantemente</strong> para
+            apoyar tu proceso académico
+          </p>
         </div>
       </div>
     </section>
@@ -3156,7 +2965,7 @@
               <ul class="footer-menu">
                 <li><a href="#services">Tesis Doctoral</a></li>
                 <li><a href="#services">Maestría</a></li>
-                <li><a href="#services">Especialización</a></li>
+
                 <li><a href="#services">Artículos</a></li>
               </ul>
             </div>
@@ -3190,9 +2999,13 @@
               </div>
 
               <!-- Social Links -->
+
+              <!-- Social Links CORREGIDOS -->
               <div class="footer-social">
+                <!-- Facebook - ✅ ESTABA BIEN -->
+
                 <a
-                  href="https://www.facebook.com/jhroyettresearch?mibextid=qi2Omg&rdid=GtctMwnjT7muKgrO&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FW9bpStMMsuU2Rjve%2F%3Fmibextid%3Dqi2Omg#"
+                  href="https://www.facebook.com/jhroyettresearch?mibextid=qi2Omg&rdid=lADQbYwHkeYx6Hfg&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FW9bpStMMsuU2Rjve%2F%3Fmibextid%3Dqi2Omg#"
                   target="_blank"
                   title="Facebook"
                   rel="noopener noreferrer"
@@ -3200,8 +3013,11 @@
                 >
                   <i class="fab fa-facebook-f"></i>
                 </a>
+
+                <!-- LinkedIn - CORREGIDO -->
+
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/javier-hernandez-royett-jhroyettresearch-06a11137?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                   target="_blank"
                   title="LinkedIn"
                   rel="noopener noreferrer"
@@ -3209,8 +3025,11 @@
                 >
                   <i class="fab fa-linkedin-in"></i>
                 </a>
+
+                <!-- Instagram - CORREGIDO -->
+
                 <a
-                  href="https://www.linkedin.com/in/javier-hernandez-royett-jhroyettresearch-06a11137?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                  href="https://www.instagram.com/jhroyettresearch?igsh=MXgxb2pnMG1sdXJzdQ%3D%3D"
                   target="_blank"
                   title="Instagram"
                   rel="noopener noreferrer"
@@ -3218,8 +3037,11 @@
                 >
                   <i class="fab fa-instagram"></i>
                 </a>
+
+                <!-- WhatsApp - CORREGIDO -->
+
                 <a
-                  href=""
+                  href="https://wa.me/573138892376"
                   target="_blank"
                   title="WhatsApp"
                   rel="noopener noreferrer"
@@ -3269,6 +3091,7 @@
     <!-- Original main.js -->
     <script src="main.js"></script>
 
+    <!-- SCRIPT DE EMAILJS ACTUALIZADO -->
     <script>
       // Inicializar EmailJS con tu Public Key
       (function () {
@@ -3300,16 +3123,13 @@
             },
           });
 
-          // Preparar los parámetros del template (DEBEN coincidir con las variables del template)
+          // Preparar los parámetros del template (SOLO los campos que existen)
           const templateParams = {
             nombre: document.getElementById("nombre").value,
             telefono: document.getElementById("telefono").value,
             email: document.getElementById("email").value,
             tipoNecesidad: document.getElementById("tipoNecesidad").value,
-            carrera: document.getElementById("carrera").value,
-            paginas: document.getElementById("paginas").value,
             nivelDesarrollo: document.getElementById("nivelDesarrollo").value,
-            mensaje: document.getElementById("mensaje").value,
           };
 
           // Log para diagnóstico
@@ -3332,64 +3152,64 @@
                   icon: "success",
                   title: "¡Solicitud Recibida!",
                   html: `
-        <div style="padding: 20px 10px;">
-            <p style="font-size: 17px; color: #2c3e50; margin: 20px 0 25px 0; line-height: 1.6;">
-                Estimado/a <strong style="color: #007bff;">${templateParams.nombre}</strong>,
-            </p>
-            <p style="font-size: 15px; color: #555; margin: 15px 0; line-height: 1.7;">
-                Hemos recibido tu solicitud de asesoría en <strong>${templateParams.tipoNecesidad}</strong> 
-                para tu carrera de <strong>${templateParams.carrera}</strong> y apreciamos tu interés en nuestros servicios.
-            </p>
-            
-            <div style="background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); 
-                        padding: 20px; 
-                        border-radius: 12px; 
-                        margin: 25px 0;
-                        box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
-                <p style="font-size: 14px; color: #2c3e50; margin: 8px 0;">
-                    <i class="fas fa-envelope" style="color: #007bff; margin-right: 10px; width: 20px;"></i>
-                    <strong>Email de contacto:</strong><br>
-                    <span style="margin-left: 30px; color: #555;">${templateParams.email}</span>
-                </p>
-                <p style="font-size: 14px; color: #2c3e50; margin: 8px 0;">
-                    <i class="fas fa-phone" style="color: #007bff; margin-right: 10px; width: 20px;"></i>
-                    <strong>Teléfono:</strong><br>
-                    <span style="margin-left: 30px; color: #555;">${templateParams.telefono}</span>
-                </p>
-                <p style="font-size: 14px; color: #2c3e50; margin: 8px 0;">
-                    <i class="fas fa-file-alt" style="color: #007bff; margin-right: 10px; width: 20px;"></i>
-                    <strong>Páginas a trabajar:</strong><br>
-                    <span style="margin-left: 30px; color: #555;">${templateParams.paginas} páginas</span>
-                </p>
-            </div>
-            
-            <div style="border-left: 4px solid #4CAF50; 
-                        background: #f0f9ff; 
-                        padding: 15px 20px; 
-                        margin: 20px 0;
-                        border-radius: 4px;">
-                <p style="font-size: 14px; color: #0066cc; margin: 0; line-height: 1.6;">
-                    <i class="fas fa-clock" style="margin-right: 8px;"></i>
-                    <strong>Tiempo de respuesta:</strong> 24-48 horas hábiles
-                </p>
-            </div>
-            
-            <p style="font-size: 13px; color: #7f8c8d; margin-top: 25px; line-height: 1.5;">
-                Nuestro equipo revisará tu solicitud y te contactará a la brevedad posible 
-                para brindarte la asesoría personalizada que necesitas.
-            </p>
-        </div>
-    `,
+                <div style="padding: 20px 10px;">
+                    <p style="font-size: 17px; color: #2c3e50; margin: 20px 0 25px 0; line-height: 1.6;">
+                        Estimado/a <strong style="color: #007bff;">${templateParams.nombre}</strong>,
+                    </p>
+                    <p style="font-size: 15px; color: #555; margin: 15px 0; line-height: 1.7;">
+                        Hemos recibido tu solicitud de asesoría en <strong>${templateParams.tipoNecesidad}</strong> 
+                        y apreciamos tu interés en nuestros servicios.
+                    </p>
+                    
+                    <div style="background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); 
+                                padding: 20px; 
+                                border-radius: 12px; 
+                                margin: 25px 0;
+                                box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+                        <p style="font-size: 14px; color: #2c3e50; margin: 8px 0;">
+                            <i class="fas fa-envelope" style="color: #007bff; margin-right: 10px; width: 20px;"></i>
+                            <strong>Email de contacto:</strong><br>
+                            <span style="margin-left: 30px; color: #555;">${templateParams.email}</span>
+                        </p>
+                        <p style="font-size: 14px; color: #2c3e50; margin: 8px 0;">
+                            <i class="fas fa-phone" style="color: #007bff; margin-right: 10px; width: 20px;"></i>
+                            <strong>WhatsApp:</strong><br>
+                            <span style="margin-left: 30px; color: #555;">${templateParams.telefono}</span>
+                        </p>
+                        <p style="font-size: 14px; color: #2c3e50; margin: 8px 0;">
+                            <i class="fas fa-tasks" style="color: #007bff; margin-right: 10px; width: 20px;"></i>
+                            <strong>Etapa actual:</strong><br>
+                            <span style="margin-left: 30px; color: #555;">${templateParams.nivelDesarrollo}</span>
+                        </p>
+                    </div>
+                    
+                    <div style="border-left: 4px solid #4CAF50; 
+                                background: #f0f9ff; 
+                                padding: 15px 20px; 
+                                margin: 20px 0;
+                                border-radius: 4px;">
+                        <p style="font-size: 14px; color: #0066cc; margin: 0; line-height: 1.6;">
+                            <i class="fas fa-clock" style="margin-right: 8px;"></i>
+                            <strong>Tiempo de respuesta:</strong> 24 horas hábiles
+                        </p>
+                    </div>
+                    
+                    <p style="font-size: 13px; color: #7f8c8d; margin-top: 25px; line-height: 1.5;">
+                        Nuestro equipo revisará tu solicitud y te contactará a la brevedad 
+                        para brindarte la asesoría personalizada que necesitas.
+                    </p>
+                </div>
+              `,
                   confirmButtonText:
                     '<i class="fas fa-check-circle"></i> Entendido',
                   confirmButtonColor: "#4CAF50",
                   width: "600px",
                   padding: "2em",
                   backdrop: `
-        rgba(0,119,182,0.05)
-        left top
-        no-repeat
-    `,
+                rgba(0,119,182,0.05)
+                left top
+                no-repeat
+              `,
                   customClass: {
                     popup: "swal-professional",
                     title: "swal-title-professional",
@@ -3419,11 +3239,11 @@
                   icon: "error",
                   title: "Error al Enviar",
                   html: `
-                    <p>Hubo un problema al enviar tu mensaje.</p>
-                    <p style="font-size: 14px; color: #666;">
-                      Por favor, intenta nuevamente o contáctanos directamente.
-                    </p>
-                  `,
+                <p>Hubo un problema al enviar tu mensaje.</p>
+                <p style="font-size: 14px; color: #666;">
+                  Por favor, intenta nuevamente o contáctanos directamente por WhatsApp.
+                </p>
+              `,
                   confirmButtonText: "Entendido",
                   confirmButtonColor: "#d33",
                 });
